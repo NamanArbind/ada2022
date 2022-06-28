@@ -50,14 +50,14 @@ int maxBPM(bool bpGraph[M][N])
 int main()
 {
 
-    bool bpGraph[M][N] = {{0, 1, 1, 0, 0, 0},
+    bool bpGraph[M][N] = {{0, 1, 0, 0, 0, 1},
                           {1, 0, 0, 1, 0, 0},
-                          {0, 0, 1, 0, 0, 0},
+                          {0, 0, 1, 0, 1, 0},
                           {0, 0, 1, 1, 0, 0},
-                          {0, 0, 0, 0, 0, 0},
-                          {0, 0, 0, 0, 0, 1}};
+                          {0, 1, 0, 0, 0, 0},
+                          {1, 0, 0, 0, 0, 1}};
 
-    cout << "Maximum number of connections that can be made are :"
+    cout << "Maximum number of connections that can be made are:"
          << maxBPM(bpGraph);
 
     return 0;

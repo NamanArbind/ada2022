@@ -32,7 +32,7 @@ int MatrixChainOrder(int p[], int n)
 
 int main()
 {
-    int arr[] = {1, 2, 3, 4};
+    int arr[] = {2, 3, 4, 5, 6};
     int size = sizeof(arr) / sizeof(arr[0]);
 
     cout << "Minimum number of multiplications is "
